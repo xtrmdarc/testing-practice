@@ -1,15 +1,9 @@
 const Calculator = (() => {
-  const add = (a,b) => {
-    return a + b;
-  }
+  const add = (a, b) => a + b;
 
-  const substract = (a, b) => {
-    return a - b;
-  }
+  const substract = (a, b) => a - b;
 
-  const multiply = (a, b) => {
-    return a * b;
-  }
+  const multiply = (a, b) => a * b;
 
   const divide = (a, b) => {
     if (b === 0) {
@@ -17,8 +11,14 @@ const Calculator = (() => {
     } else {
       return a / b;
     }
-  }
-  return { add, substract, multiply, divide }
+  };
+
+  return {
+    add,
+    substract,
+    multiply,
+    divide,
+  };
 })();
 
 export default Calculator;

@@ -4,11 +4,11 @@ test('Capitalize a string', () => {
   expect(Capitalize('string')).toBe('String');
 });
 
-test('Capitalize the word random',() => {
+test('Capitalize the word random', () => {
   expect(Capitalize('random')).toBe('Random');
 });
 
-test('Return empty if argument is not a string',() => {
+test('Return empty if argument is not a string', () => {
   expect(Capitalize(123)).toBe('');
 });
 

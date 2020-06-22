@@ -1,7 +1,7 @@
 import Calculator from '../src/calculator';
 
 test('Basic add operation', () => {
-  expect(Calculator.add(5,6)).toBe(11);
+  expect(Calculator.add(5, 6)).toBe(11);
 });
 
 test('Basic substract operation', () => {
@@ -17,7 +17,7 @@ test('Basic multiply operation', () => {
 });
 
 test('Basic divide operation', () => {
-  expect(Calculator.divide(5, 6)).toBe(5/6);
+  expect(Calculator.divide(5, 6)).toBe(5 / 6);
 });
 
 test('Basic divide operation by 0 is not allowed', () => {
