@@ -1,4 +1,4 @@
-import ReverseString from '../src/reverseString'
+import ReverseString from '../src/reverseString';
 
 test('Reverse a string', () => {
   expect(ReverseString('string')).toBe('gnirts');
